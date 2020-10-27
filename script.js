@@ -1,5 +1,5 @@
-let ownerName = "Your Name"
-let userName = "YourUsername";
+let ownerName = "Ibrokhim Mamatkhadjiev"
+let userName = "Ibrokhimm0752";
 
 document.querySelectorAll(".owner-name").forEach((e) => {
     e.innerHTML = ownerName;
@@ -7,3 +7,4 @@ document.querySelectorAll(".owner-name").forEach((e) => {
 
 document.querySelector("#github").href = "http://github.com/" + userName;
 document.querySelector("#fork").href = "http://github.com/" + userName + "/" + userName + ".github.io";
+ 
